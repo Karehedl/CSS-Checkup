@@ -1,0 +1,412 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   html, body {
+    height: 100%
+   }
+   h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px
+   }
+   /* main */
+   .parent {
+   height: 600px;
+   width: 100%;
+   /* background-image: url(../images/Screenshot\ 2022-03-23\ 072919.png); */
+   background-size: cover;
+   
+   }
+   /* base-top */
+               #header{
+                   position: fixed;
+               }
+   
+               .top {
+                   height: 50px;
+                   width: 100%;
+                   background-color: white;
+                   border-bottom: 1px solid rgb(78, 76, 76);
+                   display: flex;
+                   position: fixed;
+               }
+   
+               .top-placeholder {
+                   height: 50px;
+                   width: 100%;
+                   background-color: rgba(140, 142, 240, 0.568);
+                   display: flex;
+               }
+   
+   /* sub-base-top1 */
+                   .top1{
+                       height: 50px;
+                       width: 320px;
+                       /* background-color: rgba(255, 217, 0, 0.514); */
+                       display: flex;
+                   }
+   
+                       .lines {
+                           height: 40%;
+                           width: 6%;
+                           margin-top: 15px;
+                           margin-left: 20px;
+                           background-image: url(http://cdn.onlinewebfonts.com/svg/img_113945.png);
+                           background-size: 90% 90%;
+                           background-repeat: no-repeat;
+                           background-position: center;
+                       }
+   
+                       .logo {
+                           height: 40%;
+                           width: 9%;
+                           margin-top: 15px;
+                           margin-left: 20px;
+                           background-image: url(https://images.onlinelabels.com/images/clip-art/ClayOgre/ClayOgre_BASIC_YIN-YANG.png);
+                           background-size: 90% 90%;
+                           background-repeat: no-repeat;
+                           background-position: center;
+                       }
+   
+                       .logo-name {
+                           height: 40%;
+                           width: 30%;
+                           margin-top: 15px;
+                           /* margin-left: 20px; */
+                           /* background-color: rgba(0, 128, 0, 0.473); */
+                           font-weight: bold;
+                       }
+    /*subline-top2 */
+               .top2{
+                   height: 50px;
+                   width: 600px;
+                   /* background-color: rgba(102, 51, 153, 0.452); */
+                   display: flex;
+               }
+   
+                   .search {
+                   height: 36px;
+                   width: 500px;
+                   margin-top: 7px;
+                   border: 1px solid grey;
+                   /* background-color: rgba(255, 105, 180, 0.507); */
+                   }
+   
+                   .search-box {
+                   height: 36px;
+                   width: 55px;
+                   margin-top: 7px;
+                   border: 1px solid grey;
+                   background-image: url(http://www.clker.com/cliparts/z/1/T/u/9/2/search-icon-hi.png);
+                   /* background-color: rgba(178, 34, 34, 0.445); */
+                   background-size: 50%;
+                   background-repeat: no-repeat;
+                   background-position: center;
+                   }
+   
+   /*subline-top3 */
+               .top3 {
+                   height: 50px;
+                   width: 340px;
+                   /* background-color: rgba(255, 217, 0, 0.514); */
+                   display: flex;
+               }
+   
+               #nav-bar {
+                   /* background-color: aqua; */
+                   height: 50px;
+                   width: 330px;
+                   display: flex;
+               }
+   
+   
+                   .video-icon-box{
+                   height: 40%;
+                   width: 9%;
+                   margin-top: 15px;
+                   margin-left: 150px;
+                   /* background-color: rgba(123, 255, 0, 0.514); */
+                   background-image: url(https://www.freeiconspng.com/uploads/video-icon-2.png);
+                   background-size: 100% 100%;
+                   background-repeat: no-repeat;
+                   background-position: center;
+                   }
+   
+                   .boxes-icon-box{
+                   height: 40%;
+                   width: 9%;
+                   margin-top: 15px;
+                   margin-left: 20px;
+                   /* background-color: rgba(255, 0, 140, 0.514); */
+                   background-image: url(https://cdn4.iconfinder.com/data/icons/finite-application/16/grid-9-512.png);
+                   background-size: 100% 100%;
+                   background-repeat: no-repeat;
+                   background-position: center;
+                   }
+   
+                   .bell-icon-box{
+                   height: 40%;
+                   width: 9%;
+                   margin-top: 15px;
+                   margin-left: 15px;
+                   /* background-color: rgba(0, 140, 255, 0.514); */
+                   background-image: url(https://cdn0.iconfinder.com/data/icons/app-pack-1-musket-monoline/32/app-25-bell-512.png);
+                   background-size: 100% 100%;
+                   background-repeat: no-repeat;
+                   background-position: center;
+                   }
+   
+                   .circle-icon-box{
+                   height: 95%;
+                   width: 95%;
+                   margin: auto;
+                   /* background-color: rgba(0, 4, 255, 0.514);  */
+                   background-image: url(https://i.pinimg.com/564x/3b/82/40/3b8240cb1cd6c0b14766cc7b77d9dc37.jpg);
+                   background-size: 160% 160%;
+                   background-repeat: no-repeat;
+                   background-position: center;
+                   border-radius: 100%;
+                   }
+   
+                   .circle-icon-box2{
+                       height: 60%;
+                       width: 14%;
+                       margin-top: 11px;
+                       margin-left: 15px;
+                       background-color: rgb(0, 0, 0); 
+                       border-radius: 100%;
+                       }
+   
+   
+   
+   /* base-bottom */
+                   .below-top-main {
+                       height: 540px;
+                       width: 100%;
+                       /* background-color: rgba(133, 133, 43, 0.397); */
+                       display: flex;
+                   }
+   
+   /* sub-base-left : bar for home,etc...*/
+           .left-bar {
+               height: 550px;
+               width: 15%;
+               /* background-color: rgba(216, 112, 147, 0.603); */
+               border-right: 1px solid rgba(128, 128, 128, 0.527);
+               border-top: 1px solid rgba(128, 128, 128, 0.527);
+               position: fixed;
+           }
+                   .home-square-main {
+                       height: 40px;
+                       width: 100%;
+                       margin-top: 10px;
+                       /* background-color: rgba(112, 119, 216, 0.603);  */
+                       display: flex;
+                   }
+   
+                           .leftside-box-icon{
+                               height: 55%;
+                               width: 10%;
+                               margin-top: 7px;
+                               margin-left: 20px;
+                               /* background-color: aqua; */
+                               background-image: url(https://cdn3.iconfinder.com/data/icons/metro-generic/512/home-512.png);
+                               background-size: 100% 100%;
+                               background-repeat: no-repeat;
+                               background-position: center;
+                           }
+   
+                           .leftside-box-text {
+                               height: 55%;
+                               width: 48%;
+                               margin-top: 7px;
+                               margin-left: 15px;
+                               /* background-color: rgba(0, 238, 255, 0.514);   */
+                           }
+           
+                       .leftside-button-box{
+                           height: 38px;
+                           width: 100%;
+                           /* margin-top: 10px; */
+                           /* background-color: rgba(112, 216, 155, 0.603);
+                           border-bottom: 5px solid red; */
+                           display: flex;
+                       }
+           
+                       .leftside-line-box {
+                           height: 12px;
+                           width: 100%;
+                           /* margin-top: 10px; */
+                           /* background-color: rgba(199, 112, 216, 0.603); */
+                           /* border-bottom: 5px solid red; */
+                           display: flex;
+                       }
+   
+                           .mini-line {
+                               height: 2px;
+                           width: 100%;
+                           margin-top: 3px;
+                           background-color:  rgba(128, 128, 128, 0.527);;
+                           display: flex;
+                           }
+   
+                           
+           
+                       .leftside-button-box-showmore {
+                           height: 25px;
+                           width: 100%;
+                           /* margin-top: 10px; */
+                           /* background-color: rgba(112, 216, 155, 0.603);
+                           border-bottom: 5px solid red; */
+                           display: flex;
+                       }
+           
+                       .leftside-line-box2 {
+                           height: 25px;
+                           width: 100%;
+                           /* margin-top: 10px; */
+                           /* background-color: rgba(199, 112, 216, 0.603);
+                           border-bottom: 5px solid red; */
+                           display: flex;
+                       }
+           
+                       .subscriptions-box {
+                           height: 20px;
+                           width: 100%;
+                           /* margin-top: 10px; */
+                           /* background-color: rgba(14, 143, 57, 0.603); */
+                           display: flex;
+                       }
+   
+                           .subscriptions-box-text{
+                               height: 55%;
+                               width: 80%;
+                               margin-top: 7px;
+                               margin-left: 15px;
+                               /* background-color: rgba(0, 140, 255, 0.514); */
+                           }
+   
+   /* sub-base-right */
+           .large-video-square {
+               height: 550px;
+               width: 85%;
+               margin-left: 180px;
+               /* background-color: rgba(34, 139, 34, 0.534); */
+           }
+   
+   /* sub-base-right-top  */
+   /* genres list */
+               .right-genre-top {
+                   height: 55px;
+                   width: 100%;
+                   background-color: white; 
+                   border-bottom: 1px solid rgba(128, 128, 128, 0.527);
+                   border-top: 1px solid rgba(128, 128, 128, 0.527);
+                   display: flex;
+                   position: fixed;
+               }
+   
+               @media screen and (min-width: 480px) {
+                   .right-genre-top {
+                       font-size: 15px;
+                     }
+                   }
+   
+   
+                   .nav-2  {
+                       height: 30px;
+                       width: 90%;
+                       margin-top: 10px;
+                       margin-left: 20px;
+                       /* background-color: rgba(112, 216, 155, 0.603);  */
+                       display: flex;
+                   }
+   
+                       .genre-center {
+                           color: black;
+                           height: 30px;
+                           /* width: 8%; */
+                           margin-top: 2px;
+                           margin-left: 15px;
+                           padding: .6% 1.1%;
+                           /* background-color: rgba(31, 38, 134, 0.603);  */
+                           display: flex;
+                           align-items: center;
+                           text-decoration: none;
+                           border-radius: 50px 20px;
+                           border: 1px solid black;
+                       }
+   
+                   .right-top-arrow {
+                       height: 40%;
+                       width: 2%;
+                       margin-top: 15px;
+                       margin-left: 40px;
+                       /* background-color: rgba(0, 0, 255, 0.514); */
+                   }
+   /* sub-base-right-bottom  */
+   /* videos */
+               .right-video-section {
+                   height: 495px;
+                   width: 100%;
+                   /* background-color: rgba(112, 200, 216, 0.603);  */
+                    align-items: center;
+               }
+   
+                   .up-box-videos {
+                       height: 245px;
+                       width: 100%;
+                       margin-top: 55px;
+                       /* background-color: rgba(216, 112, 207, 0.603);  */
+                      display: flex;
+                   }
+   
+                   .bottom-box-videos {
+                       height: 245px;
+                       width: 100%;
+                       /* background-color: rgba(216, 128, 112, 0.603);  */
+                      display: flex;
+                   }
+   
+                       .left-box {
+                           height: 45px;
+                           width: 2%;
+                           /* background-color: rgba(17, 85, 97, 0.603);  */
+                           display: flex;
+                       }
+   
+                       .video-box {
+                           height: 136px;
+                           width: 22.5%;
+                           /* background-color: rgba(150, 216, 112, 0.603);  */
+                           display: flex;
+                           /* margin: 0 auto; */
+                           margin-top: 25.8px;
+                           /* margin-right: 10px ; */
+                           margin-left: 14px;
+                       }
+   
+                       iframe {
+                           height: 136px;
+                           width: 245px;
+                       }
+   
+                td {
+                   text-align: center;
+                }
+   
+   
+   
+   /* icons */
+           /* house */
+   
+           .triangle {
+               width: 0;
+               height: 0;
+               border-left: 10px solid transparent;
+               border-right: 10px solid transparent;
+               border-bottom: 10px solid #999;
+               }
+   
+   
